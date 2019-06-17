@@ -10,19 +10,19 @@ a repository for storing jar packages
 
 # reference
 
-pom.xml
-<repositories>
-    <repository>
-        <id>mvn-repo</id>
-        <name>mvn-repo</name>
-        <url>https://raw.github.com/Join66/mvn-repo/master</url>
-    </repository>
-</repositories>
-
-<dependencies>
-	<dependency>
-		<groupId>com.repo</groupId>
-		<artifactId>helloworld</artifactId>
-		<version>0.0.1</version>
-	</dependency>
-</dependencies>
+	pom.xml:
+	<repositories>
+	    <repository>
+	        <id>mvn-repo</id>
+	        <name>mvn-repo</name>
+	        <url>https://raw.github.com/Join66/mvn-repo/master</url>
+	    </repository>
+	</repositories>
+	
+	<dependencies>
+		<dependency>
+			<groupId>com.repo</groupId>
+			<artifactId>helloworld</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+	</dependencies>
